@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lightout</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="nui://game/ui/jquery.js"></script>
+
+
+  </head>
+  <body>
+    <audio id="audiocorrect" src="snd/correct.ogg"></audio>
+    <audio id="audiowrong" src="snd/wrong.ogg"></audio>
+    <audio id="audiobeep" src="snd/beep.ogg"></audio>
+    <audio id="audiostart" src="snd/start.ogg"></audio>
+    <audio id="audiofail" src="snd/fail.ogg"></audio>
+    <audio id="audiofinish" src="snd/finish.ogg"></audio>
+	<div class="minigame hidden">
+        <div class="splash"><div class="fa hacker">&#xf11c;</div><br><span class="text">Pattern recognition required...</span></div>
+        <div class="hack hidden">
+            <div class="bar"></div>
+            <div class="letters"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@mojs/core@1.2.1/dist/mo.umd.min.js"></script>
+		<script type="text/javascript" src="js/ddr.js"></script>
+  </body>
+</html>

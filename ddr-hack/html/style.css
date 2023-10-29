@@ -1,0 +1,103 @@
+body{
+    /* background-color: #15181d; */
+    font-family: sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}
+.description{
+    text-align: center;
+    color: gray;
+}
+
+/**
+ MINIGAME SQUARES
+ */
+
+.timeout_value{
+    font-size: 12px;
+    display: inline-block;
+    width: 18px;
+    text-align: right;
+    padding: 9px 12px 9px 5px;
+}
+.minigame{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    margin: 0 auto 20px;
+    width: 640px;
+    min-width: 640px;
+    max-width: 640px;
+    height: 640px;
+    min-height: 640px;
+    max-height: 640px;
+    background-color: #232832;
+    padding: 0;
+}
+.splash{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 240px;
+}
+.splash .hacker{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.minigame > .hack > .bar {
+    background-color: #1a5026;
+    width: 100%;
+    height: 64px;
+    margin-top: 64px;
+    display: inline-block;
+    position: absolute;
+}
+.minigame .letters {
+    position: absolute;
+}
+
+.minigame .letter {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top: 590px;
+    text-transform: uppercase;
+}
+.letters .letter.pos1 {
+    margin-left: 60px;
+}
+.letters .letter.pos2 {
+    margin-left: 220px;
+}
+.letters .letter.pos3 {
+    margin-left: 387px;
+}
+.letters .letter.pos4 {
+    margin-left: 540px;
+}
+.letters .letter.red{
+    color: red;
+}
+.letters .letter.green{
+    color: #0ee00e;
+}
+.minigame .mirrored .find > div,
+.minigame .mirrored .codes > div {
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+.hidden {
+    display: none;
+}
+.btn_again {
+    padding: 6px 15px;
+    font-weight: bold;
+}
