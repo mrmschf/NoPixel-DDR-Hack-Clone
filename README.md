@@ -3,7 +3,9 @@ Testing the DDR Hack Mini-Game
 To test the DDR Hack Mini-Game, players can use the /ddr command with an optional difficulty argument:
 
 /ddr easy: Start the game with an easy difficulty level.
+
 /ddr medium: Start the game with a medium difficulty level.
+
 /ddr hard: Start the game with a hard difficulty level.
 
 Gameplay
